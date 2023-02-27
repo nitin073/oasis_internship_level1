@@ -1,0 +1,152 @@
+ body {
+     background: url(pexels-william-choquette-1954524.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+ }
+
+ * {
+     font-family: 'Hubballi', cursive;
+ }
+
+ .left {
+     width: 300x;
+     margin: 20px auto;
+     display: block;
+     border-radius: 20px;
+     position: absolute;
+     top: 20px;
+     left: 43px;
+ }
+
+ .left .gymclub {
+     padding-right: 0%;
+     padding-left: 11px;
+ }
+
+ .mid {
+     display: block;
+     margin: 20px auto;
+     width: 450px;
+ }
+
+ .right {
+     position: absolute;
+     right: 35px;
+     top: 20px;
+     display: inline-block;
+
+ }
+
+ .navbar {
+     margin: auto;
+     padding: 5px;
+     border-radius: 20px;
+     background-color: rgb(185, 227, 201);
+ }
+
+ .navbar a:hover {
+     color: black;
+     background-color: bisque;
+ }
+
+ .navbar li {
+     display: inline;
+ }
+
+ .navbar li a {
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 20px;
+     color: black;
+     font-size: 21px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-family: "Lucida Console", "Courier New", monospace;
+ }
+
+ .navbar li a:hover {
+     border-radius: 13px;
+ }
+
+ .navbar li a:active {
+     /* background-color: red; */
+     color: rgb(144, 220, 139);
+ }
+
+ .gymclub {
+     font-weight: bold;
+     font-size: 20px;
+     text-align: center;
+     color: black;
+     text-align: justify;
+     background-color: rgb(185, 227, 201);
+     border-radius: 19px;
+ }
+
+ .left img {
+     height: 170px;
+     width: 145px;
+     border-radius: 10px;
+     box-shadow: 0px 0px 10px 5px rgb(38 39 53 / 30%);
+ }
+
+ .btn {
+     font-size: 18px;
+     border-radius: 40px;
+ }
+
+ .btn:hover {
+     border-radius: 20px;
+     background-color: rgb(152, 206, 143);
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ .container {
+     text-align: center;
+     width: 500px;
+     height: 500px;
+     margin: 260px 150px;
+     border-radius: 20px;
+     padding: 10px 60px;
+     border: 3px solid green;
+ }
+
+ #store {
+
+     margin: 0px 0px;
+     padding: 20px;
+     background-color: gray;
+     text-align: center;
+     width: 470px;
+     border: 2px solid rgb(25, 42, 39);
+     border-radius: 30px;
+ }
+
+ .form-group input {
+     text-align: center;
+     border-radius: 30px;
+     border: 2px solid black;
+     display: block;
+     padding: 16px;
+     margin: 3px auto;
+     font-size: 25px;
+
+ }
+
+ .btn2 {
+     text-align: center;
+     padding: 20px;
+     display: block;
+     margin: 4px auto;
+     border: 3px solid rgb(80, 66, 80);
+     border-radius: 20px;
+     cursor: pointer;
+ }
+
+ .btn2 a:hover {
+     border-radius: 13px;
+     font-size: 20px;
+
+ }
